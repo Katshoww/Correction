@@ -1,5 +1,7 @@
-# Rapport sur le code du site de la [vidéo] (https://www.youtube.com/watch?v=CQZxeoQeo5c)
+# Rapport sur le code du site de la [vidéo](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
+Après inspection beaucoups de problème sont à déplorer
+Je vais donc vous présentez un resumé sous forme de liste des travaux à envisager pour améliorer le site 
 ## Les problèmes
 
 * le repertoire n'est pas complet et donc mal organisé
