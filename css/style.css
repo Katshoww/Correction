@@ -1,0 +1,32 @@
+/* reset css */
+html{
+    font-size: 62.5%; 
+/* 16px * 62,5 10.00rem */
+}
+body{
+  font: 1.6rem sans-serif;
+  line-height: 1.6;
+  background: rgb(0, 0, 0);
+
+  margin: 0;
+}
+*{
+    box-sizing: border-box; /* 100px largeur + 10px padding + 1px border */
+}
+ul, 
+ol, 
+p,
+button,
+figure, 
+blockquote, h1, h2, h3, address{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    font-style: normal;
+}
+button{
+    background: transparent;
+    font-size: inherit;
+    border: 0;
+}
