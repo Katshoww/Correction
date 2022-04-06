@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 
 (function(doc){
     var scriptElm = doc.scripts[doc.scripts.length - 1];
@@ -28,3 +30,4 @@
     console.warn(warn.join('\n'));
   
   })(document);
+});
