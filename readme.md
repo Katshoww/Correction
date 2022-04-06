@@ -1,8 +1,10 @@
-# Rapport sur le code du site de la [vidéo](https://www.youtube.com/watch?v=CQZxeoQeo5c)
+#
+## Rapport sur le code du site de la [vidéo](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
 __Après inspection beaucoups de problème sont à déplorer.__
 __Je vais donc vous présentez un resumé, sous forme de liste, des travaux à envisager pour améliorer le site.__
-## Les problèmes
+![Screenshot](1.jpg)
+### Les problèmes
 
 * le repertoire n'est pas complet et donc mal organisé
 * ce n'est pas semantique (manque le header, main et footer)
@@ -20,8 +22,11 @@ __Je vais donc vous présentez un resumé, sous forme de liste, des travaux à e
 * pas de label
 * l'element "a" n'a rien à faire dans le button
 * l'attribut name est vide 
+* pas de DOM dans le JS
+* remplacer var par let pour déclarer une variable
+* faire un localstorage
 
-## Solutions pour amélioration
+### Solutions pour amélioration
 
 * creation d'un repertoire 
 * refonte de l'html en un html sémantique
