@@ -1,7 +1,7 @@
 # Rapport sur le code du site de la [vidéo](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
 __Après inspection beaucoups de problème sont à déplorer.__
-__Je vais donc vous présentez un resumé, sous forme de liste des travaux à envisager pour améliorer le site.__
+__Je vais donc vous présentez un resumé, sous forme de liste, des travaux à envisager pour améliorer le site.__
 ## Les problèmes
 
 * le repertoire n'est pas complet et donc mal organisé
