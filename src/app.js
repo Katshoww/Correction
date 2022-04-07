@@ -1,33 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  let el = document.getElementsByName("mdp")[0];
+  let email = document.getElementsByName("email")[0];
+ 
+  const User = {
+    mail: "vbgkassim@gmail.com",
+    mdp: `1234`,
 
-(function(doc){
-    var scriptElm = doc.scripts[doc.scripts.length - 1];
-    var warn = ['[ionicons] Deprecated script, please remove: ' + scriptElm.outerHTML];
-  
-    warn.push('To improve performance it is recommended to set the differential scripts in the head as follows:')
-  
-    var parts = scriptElm.src.split('/');
-    parts.pop();
-    parts.push('ionicons');
-    var url = parts.join('/');
-  
-    var scriptElm = doc.createElement('script');
-    scriptElm.setAttribute('type', 'module');
-    scriptElm.src = url + '/ionicons.esm.js';
-    warn.push(scriptElm.outerHTML);
-    scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
-    doc.head.appendChild(scriptElm);
-  
-    
-    scriptElm = doc.createElement('script');
-    scriptElm.setAttribute('nomodule', '');
-    scriptElm.src = url + '/ionicons.js';
-    warn.push(scriptElm.outerHTML);
-    scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
-    doc.head.appendChild(scriptElm)
-    
-    console.warn(warn.join('\n'));
-  
-  })(document);
+  }
+
+  localStorage.setItem('mail', User.mail);
+  localStorage.setItem('mdp', User.mdp);
+  const emails = localStorage.getItem('mail', User.mail);
+  const mdp = localStorage.getItem('mdp', User.mdp);
+
+  let btn = document.querySelector(".btn_submit");
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    el.value == mdp && email.value == emails ? window.alert("Connexion en cours...") : window.alert("Connexion echoué")
+  })
 });

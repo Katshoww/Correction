@@ -23,9 +23,12 @@ a{
     padding: 0;
 }
 :root{
-    --color-font: #ff7200;
+    --color-font: #ff7300;
     --color-background: #000000; 
-    --color-Box: #ffffff; 
+    --color-Box: #ffffff;
+    --color-primary: #2b7dc0;
+    --color-warning: #e23131;
+    --color-success: #4db32e;
 }
 main{
     width: 100%;
@@ -47,7 +50,6 @@ header h1{
     padding-left: 6.2rem;
     float: left;
     color: var(--color-font);
-
     padding-top: 1rem;
     margin-top: 0.5rem;
 }
@@ -140,15 +142,15 @@ section input{
     height: 4rem;
     background: var(--color-font);
     border: none;
-    margin-left: 4rem;
-    font-size: 2rem;
-    border-radius: 1rem;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     cursor: pointer;
     transition: .4s ease;
     text-decoration: none;
+    margin-left: 4rem;
+    font-size: 2rem;
+    border-radius: 1rem;
     color: var(--color-background);
     transition: .3s ease;
 }
@@ -160,7 +162,7 @@ section span{
     font-size: 6.5rem;
 }
 
-aside .form{
+.form{
     width: 27rem;
     height: 45rem;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
@@ -207,11 +209,11 @@ aside .form{
     height: 4rem;
     background: var(--color-font);
     margin-top: 3rem;
-    font-size: 1.8rem;
     border-radius: 1rem;
     cursor: pointer;
-    color: var(--color-Box);
+    font-size: 1.8rem;
     transition: 0.4s ease;
+    color: var(--color-Box);
 }
 .form input[type="submit"]:hover{
     background: var(--color-Box);
@@ -229,10 +231,6 @@ form p:nth-child(2){
     padding-bottom: 1rem;
     text-align: center;
 }
-.icons a{
-    text-decoration: none;
-    color: var(--color-Box);
-}
 .icons{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -245,4 +243,45 @@ form p:nth-child(2){
 .icons ion-icon:hover{
     color: var(--color-font);
 }
+.warning{
+    display: none;
+}
+footer p{
+    text-align: center;
+    color: var(--color-font);
+}
+footer{
+    background-color: var(--color-background);
+    padding: 2.5rem;
+}
 
+@media screen and (max-width: 60rem) and (min-width: 10rem){
+    nav ul li{
+        margin-left: 2rem;
+        margin-top: 2.7rem;
+        font-size: 1.4rem;
+    }
+    section h2{
+        font-size: 3rem;
+        text-align: center
+    }
+    section input{
+       margin-left: 14rem;
+    }
+    section span{
+        font-size: 3rem;
+    }
+    section p{
+        font-size: 1.5rem;
+        max-width: 40rem;
+    }
+    .form{
+        margin-top: 30rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main{
+        min-height: 180vh;
+     }
+}
