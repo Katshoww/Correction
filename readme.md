@@ -33,5 +33,6 @@ __Je vais donc vous présentez un resumé, sous forme de liste, des travaux à e
 * refonte de la css avec un code optimisé et en fonction du nouveau code html mieux construit et responsive
 * ajout de fonctionnalitées en js
 
-## [Resultat](hhttps://katshoww.github.io/Correction/) final 
+## Correction
+[Resultat](https://katshoww.github.io/Correction/) final
 (Mail : vbgkassim@gmail.com | Mdp : 1234)
