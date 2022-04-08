@@ -1,4 +1,4 @@
-#
+# Projet Correction - SERRARI Jalal
 ## Rapport sur le code du site de la [vidéo](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
 __Après inspection beaucoups de problème sont à déplorer.__
@@ -32,3 +32,6 @@ __Je vais donc vous présentez un resumé, sous forme de liste, des travaux à e
 * refonte de l'html en un html sémantique
 * refonte de la css avec un code optimisé et en fonction du nouveau code html mieux construit et responsive
 * ajout de fonctionnalitées en js
+
+## [Resultat](hhttps://katshoww.github.io/Correction/) final 
+(Mail : vbgkassim@gmail.com | Mdp : 1234)
